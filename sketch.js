@@ -7,10 +7,10 @@ var PLAY =1;
 var gameState = PLAY;
 
 function preload(){
-  backImage=loadImage("Images/jungle.jpg");
-  player_running = loadAnimation("Images/Monkey_01.png","Images/Monkey_02.png","Images/Monkey_03.png","Images/Monkey_04.png");
-  bananaImg = loadImage("Images/banana.png");
-  stoneImg = loadImage("Images/stone.png");
+  backImage=loadImage("images/jungle.jpg");
+  player_running = loadAnimation("images/Monkey_01.png","images/Monkey_02.png","images/Monkey_03.png","images/Monkey_04.png");
+  bananaImg = loadImage("images/banana.png");
+  stoneImg = loadImage("images/stone.png");
 }
 
 function setup() {
